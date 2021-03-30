@@ -37,7 +37,8 @@ services:
       depends_on :
               - "management1"
       restart: always
-    mysql2:
+      
+    mysql3:
       build : .
       expose:
           - "3306"
